@@ -1,1 +1,208 @@
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: 'Poppins-Bold';
+}
 
+@font-face {
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-family: 'Poppins-SemiBold';
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-family: 'Poppins-Medium';
+}
+
+@font-face {
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+    font-family: 'Poppins-ExtraLight';
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: 'Poppins-Regular';
+}
+
+html { font-size: 62.5%; }
+
+h1, h2, h3, h4, h5, h6, p { margin-bottom: 0; }
+
+h1 { 
+    font-family: 'Poppins-SemiBold'; 
+    font-size: 4.5rem; 
+    line-height: 7.68rem; 
+}
+
+p { font-family: 'Poppins-ExtraLight'; font-size: 1.8rem; line-height: 3rem; }
+
+.bg-theme { background-color: #00040F; }
+
+.bg-darkgray { background-image: linear-gradient(#272727, #11101D); }
+
+.bg-footer {background-color: #0B0A0C; }
+
+.text-theme { color: #00040F; }
+
+.text-lightcyan { 
+    background: linear-gradient(to top right, #33BBCF, #5CE1E6, #DEF9FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-white-opac { color: #FFFFFF !important; opacity: 90% !important;}
+
+nav img { width:3.4rem; height:3.4rem; }
+
+.navbar-brand { font-family: 'Poppins-Medium'; font-size: 1.8rem; }
+
+nav ul { font-family: 'Poppins-ExtraLight'; font-size: 1.6rem; }
+
+.nav-item .active { color: #FFFFFF !important; }
+
+.nav-link-p { padding-right: 5rem !important; }
+
+.section1 h1 { 
+    font-family: 'Poppins-SemiBold'; 
+    font-size: 6.2rem; 
+    line-height: 10.08rem; 
+}
+
+.section1a h2 { 
+    font-family: 'Poppins-Medium'; 
+    font-size: 4.089rem;  
+}
+
+.section1a h3 { 
+    font-family: 'Poppins-Regular'; 
+    font-size: 2.045rem;  
+}
+
+.get-started-btn {
+    background-image: linear-gradient(to bottom, #DEF9FA, #BEF3F5, #9DEDF0, #7DE7EB, #5CE1E6, #33BBCF);
+    font-family: 'Poppins-Medium';
+    font-size: 1.8rem;
+    margin-top: 5rem;
+}
+
+.icons { width:11.4rem; }
+
+.section2 p { font-size: 1.6rem; }
+
+p.person-name {
+    font-family: 'Poppins-Regular'; 
+    font-size: 2rem;  
+}
+
+p.person-des {
+    font-family: 'Poppins-ExtraLight'; 
+    font-size: 1.6rem;  
+}
+
+.logo-airbnb { width: 17rem; height:5rem; }
+
+.logo-binanace { width: 20rem; height:4rem; }
+
+.logo-coinbase { width: 16rem; height:4rem; }
+
+.logo-dropbox { width: 18rem; height:4rem; }
+
+.leftshadow-sec1 { width:58rem; height:102.6rem; }
+
+.img-sec1 { margin-top:8rem; width:67.45rem; height:70.953rem; }
+
+.section1 .row > :first-child { padding-top:16rem; }
+
+.section1 .get-started { margin-top:8rem; width:12rem; }
+
+.section1 .discount-bar { max-width:38.5rem; border-radius: 1rem; }
+
+.section1a { padding-top:25rem; }
+
+.pt-15rem { padding-top:15rem; }
+
+.section2 .row > :first-child { padding-right:9rem; }
+
+.section2 .secured-card-bradius { border-radius: 2.5rem; }
+
+.section3 img { width:53rem; height:45.5rem; }
+
+.section3 .row > :last-child { padding-top:5rem; }
+
+.section4 .row > :first-child { padding-top:5rem; padding-right:10rem; }
+
+.section4 p { margin-right:8rem; }
+
+.section4 img { width:102.6rem; }
+
+.section5 .row > :first-child { padding-right:10rem; }
+
+.section5 .row > :last-child { padding-top:5rem; padding-right:17rem; }
+
+.section6 { padding-top:7rem; padding-bottom:10rem; }
+
+.section6 .quot-card { 
+    padding-top:6rem; 
+    padding-bottom:6rem; 
+    padding-left:3.5rem; 
+    padding-right:3.5rem; 
+    border-radius: 2rem; 
+}
+
+.section6 .dp-w { width:6rem; }
+
+.section7 { padding-bottom:10rem; }
+
+.section8 { padding-bottom:9rem; }
+
+.section8-bg { border-radius:2rem; padding:8rem; }
+
+footer { padding-top:7rem; }
+
+footer .logosection-p { padding-right: 22rem; }
+
+footer img.logo { width:7.2rem; }
+
+footer img.social { width:2rem; }
+
+footer ul {
+    font-family: 'Poppins-ExtraLight';
+    font-size: 1.6rem;
+    list-style:none;
+    padding:0;
+}
+
+footer a { text-decoration: none; }
+
+footer .cpyrts-row {
+    border-top:0.05rem solid #FFFFFF;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+@media only screen and (max-width: 1329px) {
+    .img-sec1 { width:auto; height:auto; }
+}
+
+@media only screen and (max-width: 575px) {
+    .img-sec1 { display:none; }
+}
+
+@media only screen and (max-width: 991px) {
+    .section1 { height: 117rem;}
+}
+
+@media only screen and (max-width: 767px) {
+    html { font-size: 40%; }
+    .section1 .discount-bar { max-width: 41rem;}
+    .divider { display: none; }
+    .pt-15rem { padding-top:8rem; }
+    .section6 { padding-bottom:5rem; }
+    .section7 { padding-bottom:5rem; }
+    .logo-binanace { margin-top: 3rem; }
+    .logo-coinbase { margin-top: 3rem; }
+    .logo-dropbox { margin-top: 3rem; }
+    footer .ps-5 { padding-left: 0rem !important; }
+    footer .pt-3rem { padding-top: 3rem; }
+    footer .social-bar { margin-top:2rem; }
+    footer .cpyrts-row .justify-content-end { justify-content: center!important; }
+}
